@@ -12,3 +12,7 @@ This initial file produces the functionality of displaying fully compatible with
 3. It does not contain the code that detects if a node is currently active so that itself and its parents can be set to active/show.
 
 I am still investigating the optimal way (performance wise) in order to do these calculations; thus I am looking for the input of those who have spent a great deal of time investigating Wordpress Menus.
+
+Possibly the best approach will be to compute in the initial menu_items array this information (if an item is a parent to others and if itself or its children are active), extend this array and then used the results in the conditions set producing the menu_html. 
+
+Your contributions are most welcome.
