@@ -1,3 +1,6 @@
+
+<?php 
+
 function create_bootstrap5_accordeon_vertical_menu($theme_location)
 {
     if (($theme_location) && ($locations = get_nav_menu_locations()) && isset($locations[$theme_location])) {
@@ -107,3 +110,4 @@ $menu_html .= '</div' . "\n";
     echo $menu_html;
 }
 
+?>
