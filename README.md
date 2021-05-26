@@ -4,7 +4,7 @@ Create a wp function that will provide vertical accordeon menu using full bootst
 Add this code to your theme's functions.php file.
 
 then call it in the part of the webpage that you want it to appear using:
-create_bootstrap5_accordeon_vertical_menu('Name of Menu Location'); 
+```create_bootstrap5_accordeon_vertical_menu('Name of Menu Location');``` 
 
 This initial file produces the functionality of displaying fully compatible with Metronic 8, bootstrap 5, vertical (accordeon) menu, but with the following limitations.
 1. It only goes to depth one.
