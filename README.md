@@ -20,7 +20,7 @@ create_bootstrap5_accordeon_vertical_menu('metronic-style-vertical-menu');
 ``` 
 
 This initial file produces the functionality of displaying fully compatible with Metronic 8, bootstrap 5, vertical (accordeon) menu.
-1. It only goes to depth two (i.e. main item, submenu item  and children of the submenu).
+1. It goes to depth two (i.e. main item, submenu item  and children of the submenu).
 2. It does contain SQL code to determine if a main menu item is a parent to a child
 3. It does contain SQL code to determine if a submenu has a child
 
