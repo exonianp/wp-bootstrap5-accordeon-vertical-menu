@@ -38,12 +38,12 @@ Finding if a submenu item has a child and getting all the details is achieved wi
   AND a.meta_key='_menu_item_menu_item_parent' AND a.meta_value='" . $submenu->ID . "'"
 ```                                                
   Explanation: we are performing four JOINS in the wp_postmeta table in order to get the following information:
-1. The list of the children of the parent via the **_menu_item_menu_item_parent**
-2. The type of the link **_menu_item_object** of each child
-3. Determination of the  **_menu_item_url**_ that provides the URL in a custom link (i.e. not page or post)_
-4. Determination of the  **_menu_item_object_id** that provides the actual post id of the page/post referenced in the menu 
+1. The list of the children of the parent via the _**_menu_item_menu_item_parent**_
+2. The type of the link _**_menu_item_object**_ of each child
+3. Determination of the  _**_menu_item_url**_ that provides the URL in a custom link (i.e. not page or post)
+4. Determination of the  _**_menu_item_object_id**_ that provides the actual post id of the page/post referenced in the menu 
 
-The final, fifth JOIN, provides us the required information from the wp_posts table for the referenced post.
+The final, fifth, JOIN provides us the required information from the wp_posts table for the referenced post.
 
 The link, in the correct format, is produced in SQL in order to avoid creating if/else conditions in php:
 
