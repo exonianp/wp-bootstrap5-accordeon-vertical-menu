@@ -14,7 +14,10 @@ add_action('init', 'wpb_custom_new_menu');
 ```
 
 then call it in the part of the webpage that you want it to appear using:
-```create_bootstrap5_accordeon_vertical_menu('metronic-style-vertical-menu');``` 
+
+```
+create_bootstrap5_accordeon_vertical_menu('metronic-style-vertical-menu');
+``` 
 
 This initial file produces the functionality of displaying fully compatible with Metronic 8, bootstrap 5, vertical (accordeon) menu.
 1. It only goes to depth two (i.e. main item, submenu item  and children of the submenu).
